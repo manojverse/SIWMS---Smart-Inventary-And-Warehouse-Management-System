@@ -1,27 +1,24 @@
-# Dependencies
 node_modules/
-
-# Build files
 dist/
 build/
 target/
 
-# Environment and secrets
-.env
-.env.*
-!.env.example
+# Maven distribution
+backend/apache-maven-*/
 
 # Logs
 *.log
+backend/logs/
 
 # IDE
 .idea/
 .vscode/
-!.vscode/extensions.json
 
-# OS
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
 .DS_Store
 Thumbs.db
-
-# Temporary files
-*.tmp
